@@ -1,0 +1,25 @@
+$defaultColor: #3c4f5e;
+$subDefaultColor: #e17072;
+
+ion-app {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.toolbar-background, .toolbar-background-ios {
+  background: linear-gradient(45deg, #e87975, #f3c7a1) !important;
+  border: none !important;
+}
+
+.toolbar-content, .toolbar-content-ios {
+  * {
+    color: #fff !important;
+  }
+}
+
+.make-it-white {
+  color: #fff;
+}
+
+.make-bg-white {
+  background: #fff;
+}

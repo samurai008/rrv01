@@ -1,0 +1,20 @@
+<ion-menu [content]="content" [swipeEnabled]="false">
+  <ion-content class="menu-ion-content">
+    <ion-list no-lines margin-vertical margin-left>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+    </ion-list>
+    <ion-list no-lines margin-top margin-left>
+        <ion-item>
+            <ion-avatar item-start>
+            <img src="../assets/stock-images/marty-avatar.png">
+        </ion-avatar>
+        <h2 class="make-it-white">Lara Shomahk</h2>
+        <h3 class="make-it-white">Los Angeles</h3>
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #content [root]="rootPage"></ion-nav>

@@ -1,0 +1,16 @@
+page-home {
+    ion-card {
+        width: 100%;
+        margin: 0;
+        * h2 {
+            color: $defaultColor;
+        }
+        * p {
+            font-size: 75% !important;
+            color: $subDefaultColor !important;
+        }
+        * ion-icon {
+            font-size: 24px;
+        }
+    }
+}
