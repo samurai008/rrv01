@@ -1,0 +1,41 @@
+page-login {
+    .toolbar-background, .toolbar-background-ios {
+        background: #fff !important;
+        border: none !important;
+    }
+    .toolbar-content, .toolbar-content-ios {
+        * {
+            color: #000 !important;
+        }
+    }
+
+    .header-md::after {
+        background-image: none !important;
+    }
+
+    .no-border {
+        border: none !important;
+    }
+    .with-border {
+        border: 1px solid #dedede;
+    }
+
+    ion-item {
+        padding-left: 0px !important;
+        box-shadow: none;
+    }
+
+    ion-list {
+        ion-item:first-child {
+            border-bottom: 1px solid #dedede !important;
+        }
+        * {
+            box-shadow: none !important;
+            border: none !important;
+        }
+    }
+
+    .login-btn {
+        background: linear-gradient(45deg, #e87975, #f3c7a1) !important;
+    }
+}
