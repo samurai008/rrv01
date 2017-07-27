@@ -7,12 +7,62 @@
 <ion-header>
 
   <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="ios-menu-outline" class="make-it-white"></ion-icon>
+      </button>
+    </ion-buttons>
     <ion-title>Inbox</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="ios-notifications" class="make-it-white"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
-
+<!--
+Inbox List using ion-grid
+  -->
 <ion-content padding>
-  <h3>This is Inbox</h3>
+  <ion-list no-lines>
+    <button ion-item>
+      <ion-grid>
+        <ion-row justify-content-between>
+          <ion-col>
+            <h3>Sheldon Murphy</h3>
+          </ion-col>
+          <ion-col text-right>
+            <small>11:31 AM</small>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><h4>Design Updates</h4></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Hi there is a new announcement..</ion-col>
+        </ion-row>
+      </ion-grid>
+    </button>
+
+    <button ion-item>
+      <ion-grid>
+        <ion-row justify-content-between no-padding>
+          <ion-col>
+            <h3>Sheldon Murphy</h3>
+          </ion-col>
+          <ion-col text-right>
+            <small>11:31 AM</small>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col><h4>Design Updates</h4></ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col>Hi there is a new announcement..</ion-col>
+        </ion-row>
+      </ion-grid>
+    </button>
+  </ion-list>
 </ion-content>

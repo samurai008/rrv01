@@ -4,6 +4,7 @@
       <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
         {{p.title}}
       </button>
+      <button ion-item (click)="presentModal()">Login</button>
     </ion-list>
     <ion-list no-lines margin-top margin-left>
         <ion-item>

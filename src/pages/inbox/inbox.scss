@@ -1,3 +1,9 @@
 page-inbox {
-
+    ion-content {
+        ion-list {
+            button {
+                list-style: circle;
+            }
+        }
+    }
 }
